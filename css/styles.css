@@ -1,0 +1,47 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+
+    .navbar {
+        width: 100%;
+
+        & img {
+            width: 110px;
+        }
+    }
+}
+
+main.index {
+    background-color: #222;
+
+    .carousel {
+
+        .carousel-inner {
+
+            & img {
+                height: calc(100vh - 136px);
+                object-fit: cover;
+            }
+        }
+    }
+
+    .contain {
+
+        & h1 {
+            color: #2c2b2b;
+            text-align: center;
+            padding: 2rem;
+            font-size: 50pt;
+            font-weight: 700;
+        }
+        
+        .card-container {
+            padding: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
