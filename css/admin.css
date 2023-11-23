@@ -19,8 +19,12 @@ main.admin {
     }
 
     .table {
-        height: 800px;
+        height: 770px;
         overflow: auto;
+
+        & table {
+            min-width: 1100px;
+        }
 
         & table,
         th,

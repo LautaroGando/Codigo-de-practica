@@ -7,3 +7,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.swal2-container {
+    z-index: 11000;
+}
