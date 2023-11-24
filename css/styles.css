@@ -9,6 +9,16 @@ header {
         & img {
             width: 110px;
         }
+
+        #divLogin {
+
+            
+
+            & img {
+                width: 20px;
+                height: 20px;
+            }
+        }
     }
 }
 

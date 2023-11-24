@@ -79,19 +79,19 @@ const searchHTML = document.getElementById('search');
 //? 6 - Agregar o editar usuario
 
     //! - Comprobar si el correo coincide con el confirmar correo
-    
+
     //! -----------------------------------------------------------
 
     //! - Comprobar si la clave coincide con el confirmar clave
-    
+
     //! -----------------------------------------------------------
 
     //! - Comprobar si el email ya existe
-    
+
     //! -----------------------------------------------------------
 
     //! - Comprobar si el usuario ya existe
-    
+
     //! -----------------------------------------------------------
 
 //? -----------------------------------------------------------------
