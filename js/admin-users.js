@@ -1,7 +1,13 @@
 //TODO - Recomendaciones:
 //* Mostrar carteles para evitar clicks no deseados y mostrar alertas sobre el ingreso exitoso o denegado.
 
-const usersStart = [
+const tableUsersHTML = document.getElementById('tableUsers');
+const formUsersHTML = document.getElementById('formUsers');
+const buttonFormUsersHTML = formUsersHTML.querySelector('button[type="submit"]');
+const buttonSearchUsersHTML = formUsersHTML.querySelector('button[type="button"]');
+const searchHTML = document.getElementById('search');
+
+const users = [
     {
         id: crypto.randomUUID(),
         image: '/assets/icons/user.png',
@@ -45,12 +51,6 @@ const usersStart = [
         createDate: new Date().getTime(),
     },
 ];
-
-const tableUsersHTML = document.getElementById('tableUsers');
-const formUsersHTML = document.getElementById('formUsers');
-const buttonFormUsersHTML = formUsersHTML.querySelector('button[type="submit"]');
-const buttonSearchUsersHTML = formUsersHTML.querySelector('button[type="button"]');
-const searchHTML = document.getElementById('search');
 
 //? 9 - Hacer Local Storage
 

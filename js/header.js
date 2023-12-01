@@ -2,7 +2,7 @@
 //* Mostrar carteles para evitar clicks no deseados y mostrar alertas sobre el ingreso exitoso o denegado.
 
 const liRegisterHTML = document.getElementById('liRegister');
-const divLoginHTML = document.getElementById('divLogin');
+const divLoginHTML = document.getElementById('navbarSupportedContent');
 const ulLogoutAndAdminHTML = document.getElementById('ulLogoutAndAdmin');
 
 //? 1 - Crear boton de registrarse desde JS

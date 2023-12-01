@@ -10,7 +10,7 @@ header {
             width: 110px;
         }
 
-        #divLogin {
+        #navbarSupportedContent {
 
             
 
@@ -68,6 +68,54 @@ main.index {
                         overflow: hidden;
                     }
                 }
+            }
+        }
+    }
+}
+
+aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    .weather-container {
+        height: 300px;
+        width: 250px;
+        background-color: #222;
+        box-shadow: 0 0 60px 30px #333 inset;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px 0 0 0;
+
+        & input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            border-bottom: 2px solid #333;
+            transition: all 0.2s linear;
+            color: white;
+
+            &:focus {
+                border-color: white;
+            }
+        }
+
+        & button {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+            background-color: rgb(18, 60, 109);
+            color: white;
+            cursor: pointer;
+            transition: all 0.2s linear;
+
+            &:hover {
+                background-color: transparent;
             }
         }
     }

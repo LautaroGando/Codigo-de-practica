@@ -1,7 +1,13 @@
 //TODO - Recomendaciones:
 //* Mostrar carteles para evitar clicks no deseados y mostrar alertas sobre el ingreso exitoso o denegado.
 
-const productsStart = [
+const tableProductsHTML = document.getElementById('tableProducts');
+const formProductsHTML = document.getElementById('formProducts');
+const buttonFormProductsHTML = formProductsHTML.querySelector('button[type="submit"]');
+const buttonSearchProductsHTML = formProductsHTML.querySelector('button[type="button"]');
+const searchHTML = document.getElementById('search');
+
+const products = [
     {
         id: crypto.randomUUID(),
         image: '/assets/icons/html.webp',
@@ -93,12 +99,6 @@ const productsStart = [
         createDate: new Date('2009-05-27' + 'T00:00:00-03:00').getTime(),
     },
 ];
-
-const tableProductsHTML = document.getElementById('tableProducts');
-const formProductsHTML = document.getElementById('formProducts');
-const buttonFormProductsHTML = formProductsHTML.querySelector('button[type="submit"]');
-const buttonSearchProductsHTML = formProductsHTML.querySelector('button[type="button"]');
-const searchHTML = document.getElementById('search');
 
 //? 9 - Hacer Local Storage
 

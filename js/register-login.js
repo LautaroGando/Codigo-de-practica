@@ -14,7 +14,6 @@ const formLoginHTML = document.getElementById('formLogin');
 
     //! -------------------------------------------------------------
 
-        
         //! - Comprobar si el email ya existe
 
         //! ---------------------------------------------------------
